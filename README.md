@@ -1,10 +1,10 @@
-# ⚡ Stochastic Modeling of Electricity Spot Prices Using Ornstein-Uhlenbeck Process
+# Stochastic Modeling of Electricity Spot Prices Using Ornstein-Uhlenbeck Process
 
 > **Modeling and simulating Indian Energy Exchange (IEX) Day-Ahead Market (DAM) electricity prices using a Gaussian Ornstein-Uhlenbeck (OU) process — with rigorous statistical validation.**
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project applies continuous-time stochastic modeling to Indian electricity spot prices from the **IEX Day-Ahead Market**. The Ornstein-Uhlenbeck (OU) process — a mean-reverting diffusion widely used in energy finance — is calibrated to real 15-minute Market Clearing Price (MCP) data and stress-tested against empirical observations.
 
@@ -17,7 +17,7 @@ This project applies continuous-time stochastic modeling to Indian electricity s
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Property | Value |
 |---|---|
@@ -32,7 +32,7 @@ This project applies continuous-time stochastic modeling to Indian electricity s
 
 ---
 
-## 🧮 Methodology
+## Methodology
 
 ### 1. Ornstein-Uhlenbeck Process
 
@@ -78,7 +78,7 @@ where $Z_t \sim \mathcal{N}(0, 1)$.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 CV_Project_1/
@@ -91,7 +91,7 @@ CV_Project_1/
 
 ---
 
-## 🔬 Analysis Pipeline
+## Analysis Pipeline
 
 The Jupyter notebook (`main.ipynb`) is organised into the following stages:
 
@@ -131,7 +131,7 @@ The Jupyter notebook (`main.ipynb`) is organised into the following stages:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 ### Calibrated OU Parameters (IEX DAM, May–June 2026)
 
@@ -172,7 +172,7 @@ The Anderson-Darling statistic of 221.18 is **213× above the most stringent cri
 
 ---
 
-## 📸 Sample Outputs
+## Sample Outputs
 
 ### OU Failure Analysis (5-Panel)
 ![OU Failure Analysis](ou_failure_analysis.png)
@@ -182,7 +182,7 @@ The Anderson-Darling statistic of 221.18 is **213× above the most stringent cri
 
 ---
 
-## 🔭 Future Extensions
+## Future Extensions
 
 1. **Lévy-driven OU process** — replace Gaussian innovations with Normal Inverse Gaussian (NIG) or jump-diffusion to capture price spikes (Benth et al., 2008)
 2. **Seasonal mean function** — time-varying μ(t) to capture the diurnal duck curve pattern observed in Panel 3
@@ -191,7 +191,7 @@ The Anderson-Darling statistic of 221.18 is **213× above the most stringent cri
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 ```
 python >= 3.11
@@ -212,7 +212,7 @@ pip install numpy pandas matplotlib seaborn scipy scikit-learn openpyxl
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
@@ -234,7 +234,7 @@ pip install numpy pandas matplotlib seaborn scipy scikit-learn openpyxl
 
 ---
 
-## 📚 References
+## References
 
 ### Textbooks
 
@@ -248,13 +248,13 @@ pip install numpy pandas matplotlib seaborn scipy scikit-learn openpyxl
 
 ---
 
-## 📝 License
+## License
 
 This project is for academic and educational purposes.
 
 ---
 
-## 👤 Author
+## Author
 
 **Mudigonda Omkaar Sharma**  
 B.Tech Electrical Engineering, Nirma University  
