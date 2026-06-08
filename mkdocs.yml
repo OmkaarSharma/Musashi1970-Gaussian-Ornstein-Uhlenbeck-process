@@ -1,0 +1,7 @@
+site_name: Gaussian Ornstein-Uhlenbeck Process
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
